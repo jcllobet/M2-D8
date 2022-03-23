@@ -61,13 +61,13 @@ div > h1 {
     font-weight: bold;
 }
 
-.item3 > p {
+.item3 > div {
     flex-grow: 1;
     min-width: 100%;
     background-color: #ffe420;
 }
 
-.item3 > p:first-of-type {
+.item3 > div:first-of-type {
     background-color: #fff7bd;
 }
 
