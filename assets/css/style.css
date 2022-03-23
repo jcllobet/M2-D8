@@ -1,0 +1,68 @@
+.black-bg {
+    background-color: #000;
+}
+
+div > h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container > p {
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 400px;
+}
+
+.container-fluid > div {
+    min-width: 150px;
+}
+
+.item1 {
+    flex-grow: 5;
+    justify-content: center;
+    align-items: center;
+    background-color: #6ab56a;
+    border: 2px solid black;
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+}
+
+.item2 {
+    flex-grow: 1;
+    background-color: #289bff;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    line-height: 5px;
+}
+
+.item3 {
+    flex-grow: 3;
+    background-color: #ffe420;
+    border: 2px solid black;
+    border-radius: 0px 25px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.item3 > p {
+    flex-basis: auto;
+    /* flex-grow: 1; */
+}
