@@ -65,6 +65,7 @@ div > h1 {
     flex-grow: 1;
     min-width: 100%;
     background-color: #ffe420;
+    min-height: calc(100% / 3);
 }
 
 .item3 > div:first-of-type {
@@ -77,10 +78,15 @@ div > h1 {
 }
 
 .card {
+    display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 0px;
 }
 
 .card-title {
     background-color: #f7f7f7;
+}
+
+.card-body {
 }
